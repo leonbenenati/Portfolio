@@ -4,7 +4,7 @@ import pickle
 import base64
 
 
-paginas = ['Pagina inicial', 'Modelo de classicação.PT1','Modelo de classificação.PT2','Nuvem de palavras tweets']
+paginas = ['Pagina inicial', 'Modelo de classificação.PT1','Modelo de classificação.PT2','Nuvem de palavras tweets']
 pagina = st.sidebar.radio('Selecione uma página', paginas)
 
 if pagina == 'Pagina inicial':
@@ -19,7 +19,7 @@ if pagina == 'Pagina inicial':
 	st.markdown('---')
 
 
-if pagina == 'Modelo de classicação.PT1':
+if pagina == 'Modelo de classificação.PT1':
 	st.subheader('Deploy do Modelo de Classicação')
 	st.subheader('A pessoa é fumante?')
 	st.subheader('Insira os dados da pessoa e descubra')
